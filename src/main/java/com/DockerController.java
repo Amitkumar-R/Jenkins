@@ -6,11 +6,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class DockerController {
-	
 	@ResponseBody
 	@RequestMapping("/user")
 	public String display() {
 		return "Hi user";
 	}
-
 }
